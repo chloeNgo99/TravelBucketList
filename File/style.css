@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    margin: auto;
+    width: 550px;
+    height: 830px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.navBar{
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    background-color: #c8c7d7;
+    padding-top: 20px;
+    border-radius: 20px 20px 0px 0px;
+    color: white;
+    font-family: pacifico;
+}
+
+.navBar > img {
+    border-radius: 50%;
+    width: 70px;
+    height:70px;
+    margin-right: 10px;
+}
+
+.cards{
+    display: flex;
+    padding-block: 20px;
+    align-content: center;
+    justify-content: center;
+    max-width: 471px;
+    height: 168px;
+    margin: auto;
+}
+.cardImg{
+    margin-right: 10px;
+    max-inline-size: 126px;
+    max-height: 168px;
+    border-radius: 20px;
+    margin-right: 30px;
+    justify-content: center;
+    align-content: center;
+}
+
+.cardInfo{
+    margin: 0;
+    max-width: 326px;
+    justify-content: center;
+    align-content: center;
+    font-family: Inter;
+    text-align: left;
+}
+
+.cardInfo > p {
+    font-size: 10.24px;
+    color: #2B283A;
+    margin-top: 5px;
+}
+
+.cardDate{
+    font-size: 10.24px;
+    color: #2B283A;
+    font-weight: bold;
+} 
+
+.cardInfo >h2{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.cardLocation{
+    font-size: 10.24px;
+    margin-right: 10px;
+    letter-spacing: 1px;
+}
+
+.cardLink{
+    font-size: 10.24px;
+    color: #918E9B;
+}
+
+hr{
+    border-top: 1px solid #F5F5F5;
+}
+
+.icon{
+    width: 8px;
+    height: 11.55px;
+    margin-right: 5px;
+    object-fit: cover;
+}
